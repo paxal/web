@@ -4,8 +4,8 @@
 
     {foreach from=$actualites item=actualite}
     <article class="news">
-        <div class="title">
-            <h2>{$actualite->titre}</h2>
+        <div class="title" id="news-{$actualite->id}">
+            <h2><a href="#news-{$actualite->id}">{$actualite->titre}</a></h2>
             <span>Mise à jour : {$actualite->date|date_format:"%d %B %Y"}</span>
         </div>
         <div class="news-txt clearfix">

@@ -331,7 +331,7 @@ body {
 	left:-12px;
 }
 
-.news .title h2 {
+.news .title h2, .news .title h2 a {
 	font: 20px/1em 'MuseoSans500', Helvetica, Arial, sans-serif;
 	color:#FFF;
 	text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
